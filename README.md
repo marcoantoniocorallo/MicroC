@@ -36,7 +36,7 @@ You can find a detailed description of the project and of the main design choice
 
 #### Assignments Instructions
 
-The structure of the project (i.e. the directory structure, the development environment, the starting (ambiguous) EBNF grammar, ... ) was specified from [Prof. Galletta](https://github.com/lillo) and the whole definition is available [here]((https://github.com/lillo/compiler-course-unipi/tree/main/microc).
+The structure of the project (i.e. the directory structure, the development environment, the starting (ambiguous) EBNF grammar, ... ) was specified from [Prof. Galletta](https://github.com/lillo) and the whole definition is available [here](https://github.com/lillo/compiler-course-unipi/tree/main/microc).
 
 The assignments required to:
 
