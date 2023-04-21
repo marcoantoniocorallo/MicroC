@@ -30,6 +30,8 @@ There is support for the initialization of variables during the declaration and 
 This implementation of MicroC also provides the operators for pre/post-increment `++`, pre/post-decrement `--` and for the abbreviate form of assignments `+=`, `-=`, `*=`, `/=`, `%=`.
 Furthermore, MicroC provides a **strong**(er than C) *type system* and a static analysis step that recognizes and eliminates *dead code*.
 
+You can find a detailed description of the project and of the main design choices adopted in the official [report](https://github.com/marcoantoniocorallo/MicroC/blob/main/MicroC.pdf).
+
 ---
 
 #### Assignments Instructions
@@ -88,7 +90,8 @@ Once the compiler is built, you can compile your own program using the script *m
 
 #### To-Do
 
-- pointers, arrays & multi-dimensional arrays as in C;
-- seperate compilation.
+- arrays as pointers; 
+- multi-dimensional arrays as in C;
+- seperate compilation;
 - floating point arithmetic and strings as in C, i.e. null-terminated arrays of characters;
 - structs, `sizeof`, bitwise and comma operators;
