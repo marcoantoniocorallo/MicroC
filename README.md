@@ -1,5 +1,7 @@
 # MicroC
 
+![](https://github.com/marcoantoniocorallo/MicroC/blob/main/cover.png)
+
 *MicroC* is a statically typed subset of the language *C*, developed as a serie of assignments for the [*Languages, Compilers and Interpreters*](https://github.com/lillo/compiler-course-unipi) course @ [*UniPi*](https://di.unipi.it/). 
 
 The main simplification of this language with regards to C are:
