@@ -7,6 +7,7 @@ $(eval $(ARGS):;@:)
 .PHONY: all
 all: 
 	opam exec -- dune build --root .
+	clang -emit-llvm -c ./bin/rt-support.c -o ./_build/install/default/bin/rt-support.bc
 
 .PHONY: deps
 deps: ## Install development dependencies
